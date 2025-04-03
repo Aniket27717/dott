@@ -46,10 +46,10 @@
                 
                 audio.play().then(() => {
                     audio.onended = function() {
-                        window.location.href = "https://aniket27717.github.io/dottt/";
+                        window.location.href = "https://aniket27717.github.io/bot/";
                     };
                 }).catch(() => {
-                    window.location.href = "https://aniket27717.github.io/dottt/";
+                    window.location.href = "https://aniket27717.github.io/bot/";
                 });
             })
             .catch(error => {
