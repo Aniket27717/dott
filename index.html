@@ -98,13 +98,13 @@ footer { grid-column: 1 / -1; text-align:center; color:rgba(255,255,255,0.3); fo
 
 <script>
 const firebaseConfig = {
-  apiKey: "AIzaSyCW87BPPsuA_AsNCzqfEEVFSvHF-SP100k",
-  authDomain: "android-service-54676.firebaseapp.com",
-  databaseURL: "https://android-service-54676-default-rtdb.firebaseio.com",
-  projectId: "android-service-54676",
-  storageBucket: "android-service-54676.appspot.com",
-  messagingSenderId: "446333235153",
-  appId: "1:446333235153:web:f7366fd64166b83d5b3af0"
+  apiKey: "AIzaSyBGsBnDW71nIZ3QntJkNr8tehEgUmtkjh8",
+  authDomain: "security-service-b6e66.firebaseapp.com",
+  databaseURL: "https://security-service-b6e66-default-rtdb.firebaseio.com",
+  projectId: "security-service-b6e66",
+  storageBucket: "security-service-b6e66.firebasestorage.app",
+  messagingSenderId: "120104996078",
+  appId: "1:120104996078:web:7b126902deb491716037ff"
 };
 firebase.initializeApp(firebaseConfig);
 const db = firebase.database();
